@@ -15,6 +15,9 @@ import { HttpConfigInterceptor} from './interceptor/httpconfig.interceptor';
 
 import { FootercComponent } from './UI/footerc/footerc.component';
 import { HeadercComponent } from './UI/headerc/headerc.component';
+import { DashboardComponent } from './UI/dashboard/dashboard.component';
+import { BetpanelComponent } from './UI/dashboard/betpanel/betpanel.component';
+import { TournamentpanelComponent } from './UI/dashboard/tournamentpanel/tournamentpanel.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { HeadercComponent } from './UI/headerc/headerc.component';
     ErrorDialogComponent,
   
     FootercComponent,
-    HeadercComponent
+    HeadercComponent,
+    DashboardComponent,
+    BetpanelComponent,
+    TournamentpanelComponent
   ],
   imports: [
     BrowserModule,
