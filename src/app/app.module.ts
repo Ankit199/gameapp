@@ -13,10 +13,16 @@ import { ErrorDialogService } from './error-dialog/errordialog.service';
 
 import { HttpConfigInterceptor} from './interceptor/httpconfig.interceptor';
 
+import { FootercComponent } from './UI/footerc/footerc.component';
+import { HeadercComponent } from './UI/headerc/headerc.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    ErrorDialogComponent
+    ErrorDialogComponent,
+  
+    FootercComponent,
+    HeadercComponent
   ],
   imports: [
     BrowserModule,
