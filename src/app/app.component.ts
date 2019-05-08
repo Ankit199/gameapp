@@ -7,16 +7,10 @@ import { LoginService } from './services/login.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Angular-Interceptor';
+  title = 'Match-Net';
   constructor(public loginService: LoginService) {
-    this.loginService.login({}).subscribe(data => {
-      console.log(data);
-    });
+    
   }
 
-  getCustomerDetails() {
-    this.loginService.getCustomerDetails().subscribe((data) => {
-      console.log('----->>>', data);
-    });
-  }
+ 
 }
